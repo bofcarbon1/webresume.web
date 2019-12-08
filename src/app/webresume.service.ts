@@ -29,23 +29,23 @@ export class WRService {
     
     constructor(private http: Http) {
         this.actionUrlPersonal =
-            'http://localhost:3000/api/resume/personal';
+            'https://fierce-brook-76319.herokuapp.com/api/resume/personal';
         this.actionUrlEmail =
-            'http://localhost:3000/api/resume/email';
+            'https://fierce-brook-76319.herokuapp.com/api/resume/email';
         this.actionUrlSiteLinks =
-            'http://localhost:3000/api/resume/sitelinks';
+            'https://fierce-brook-76319.herokuapp.com/api/resume/sitelinks';
         this.actionUrlServices =
-            'http://localhost:3000/api/resume/services';
+            'https://fierce-brook-76319.herokuapp.com/api/resume/services';
         this.actionUrlSkills =
-            'http://localhost:3000/api/resume/skills?skilltype=';
+            'https://fierce-brook-76319.herokuapp.com/api/resume/skills?skilltype=';
         this.actionUrlProjects =
-            'http://localhost:3000/api/resume/projects';
+            'https://fierce-brook-76319.herokuapp.com/api/resume/projects';
         this.actionUrlProject =
-            'http://localhost:3000/api/resume/project?projectID=';
+            'https://fierce-brook-76319.herokuapp.com/api/resume/project?projectID=';
         this.actionUrlnewProject =
-            'http://localhost:3000/api/resume/newProject?name=';
+            'https://fierce-brook-76319.herokuapp.com/api/resume/newProject?name=';
         this.actionUrlupdProject =
-            'http://localhost:3000/api/resume/updProject?id=';
+            'https://fierce-brook-76319.herokuapp.com/api/resume/updProject?id=';
         this.headers = new Headers();
         this.headers.append('Content-Type', 'application/json');
         this.headers.append('Accept', 'application/json');
