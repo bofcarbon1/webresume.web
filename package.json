@@ -1,6 +1,10 @@
 {
   "name": "webresume",
   "version": "0.0.0",
+  "engines": {
+    "node": "12.13.0",
+    "npm": "6.13.1"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
