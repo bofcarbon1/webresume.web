@@ -86,7 +86,7 @@ export class WRService {
     public GetSkillsByType = (skilltype): Observable<any> => {
         return this.http.get(this.actionUrlSkills + skilltype)
             .map(response => response.json())
-            .pipe(delay(10000))
+            .pipe(delay(3000))
             .catch(this.handleError);
     }
     
