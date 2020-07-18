@@ -1,14 +1,13 @@
 <div class="row" style="background-color: #009999">
-    <div class="col-md-12">
-       <p><strong>&nbsp; Skills</strong></p> 
+    <div class="col-md-4">
+       <p><strong>&nbsp; Web Skills</strong></p> 
     </div>
-</div>
-<div class="row">
-    <ng-template ngFor let-service [ngForOf]="services">
-        <div class="col-md-4" style="background-color:#b3ffff">
-            <span><strong>&nbsp; {{service.service}}</strong></span>
-        </div>
-    </ng-template>
+    <div class="col-md-4">
+        <p><strong>&nbsp; Database Skills</strong></p> 
+     </div>
+     <div class="col-md-4">
+        <p><strong>&nbsp; Service Skills</strong></p> 
+     </div>
 </div>
 <div class="row">
 <div class="col-md-4">
@@ -18,12 +17,12 @@
 </div>
 <div class="col-md-4">
     <ng-template ngFor let-skilldatabase [ngForOf]="databaseskills">
-        <span>{{skilldatabase.skillname}}</span><br>
+        <span>&nbsp; {{skilldatabase.skillname}}</span><br>
     </ng-template>
 </div>
 <div class="col-md-4">
     <ng-template ngFor let-skillservice [ngForOf]="serviceskills">
-        <span>{{skillservice.skillname}}</span><br>
+        <span>&nbsp; {{skillservice.skillname}}</span><br>
     </ng-template>
 </div>
 </div>
